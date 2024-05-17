@@ -1,0 +1,31 @@
+---
+import { Picture } from "astro:assets";
+import Box from "@components/ui/box.astro";
+const { Descripcion, Titulo, name, image, gif_voceria } = Astro.props;
+---
+
+<Box
+  class="w-[calc(100vw-5.75rem)] max-w-md flex flex-col justify-between snap-start snap-always shrink-0 first-of-type:scroll-m-10 scroll-m-5">
+  <!-- <div class="absolute font-serif text-5xl left-2 top-8 text-slate-300 -z-10">
+    “
+  </div> 
+</div> 
+<blockquote class="text-lg md:text-1xl [text-wrap:balance]">{text}</blockquote>
+ -->
+  
+  <img
+    
+    src={gif_voceria}
+    alt={gif_voceria}
+    width="398"
+    height="198"
+    loading="lazy"
+    style="padding-bottom: 10px;"
+  />
+
+  <div>
+      <h1 class="font-medium text-lg" style="padding-bottom: 10px;">{Titulo}</h1>
+      <!--<p class="text-sm text-slate-600">{Descripcion}</p> -->
+      <blockquote class="text-sm md:text-1xl [text-wrap:balance]" >{Descripcion}</blockquote>
+  </div>
+</Box>

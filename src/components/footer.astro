@@ -1,0 +1,219 @@
+---
+import Container from "@components/container.astro";
+import { Icon } from "astro-icon/components";
+
+const { margin } = Astro.props;
+
+const footermenu = {
+  company: [
+    {
+      title: "About",
+      path: "/about",
+    },
+    {
+      title: "Careers",
+      path: "#",
+    },
+    {
+      title: "Blog",
+      path: "/blog",
+    },
+    {
+      title: "Contact",
+      path: "/contact",
+    },
+  ],
+  product: [
+    {
+      title: "For Startups",
+      path: "#",
+    },
+    {
+      title: "Features",
+      path: "#",
+    },
+    {
+      title: "Pricing",
+      path: "/pricing",
+    },
+    {
+      title: "Integrations",
+      path: "#",
+    },
+  ],
+  resources: [
+    {
+      title: "Help Center",
+      path: "#",
+    },
+    {
+      title: "Guides",
+      path: "#",
+    },
+    {
+      title: "Documentation",
+      path: "#",
+    },
+    {
+      title: "Uptime Status",
+      path: "#",
+    },
+  ],
+};
+---
+
+<footer
+  class:list={[
+    "py-14 bg-slate-100 border-t border-slate-100",
+    margin && "mt-10",
+  ]}>
+  <Container>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 ">
+      <div class="sm:col-span-2 md:col-span-3 lg:col-span-5 flex flex-col items-center justify-center" >
+        <a href="/" class="text-lg flex items-center "
+          >
+          <span class="font-semibold text-gray-800 text-2xl">Susana</span><span
+            class="text-slate-600 text-xl">Casanova</span
+          >
+         
+          <span class="uppercase mt-0.5 leading-none text-xs ml-1 font-bold bg-white-200 text-slate-700 px-2 py-1 rounded-md">
+          </span>
+          <span class="uppercase mt-0.5 leading-none text-xs ml-1 font-bold bg-white-200 text-slate-700 px-2 py-1 rounded-md">
+          </span>
+        </a>
+        <p class="mt-4 text-sm text-slate-700 max-w-xs ">
+          Astroship Pro is a premium astro website template made for saas &
+          startups. Built with Astro and Tailwind CSS.
+        </p>
+        <div class="flex gap-3 mt-4 items-center">
+          <a
+            href="https://twitter.com/surjithctly"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-slate-200 hover:bg-slate-300 rounded w-6 h-6 inline-flex items-center justify-center text-slate-500">
+            <Icon name="bx:bxl-twitter" class="w-4 h-4" />
+            <span class="sr-only">Twitter or X</span></a
+          >
+          <a
+            href="https://facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-slate-200 hover:bg-slate-300 rounded w-6 h-6 inline-flex items-center justify-center text-slate-500">
+            <Icon name="bx:bxl-facebook-circle" class="w-4 h-4" /><span
+              class="sr-only">Facebook</span
+            ></a
+          >
+          <a
+            href="https://linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-slate-200 hover:bg-slate-300 rounded w-6 h-6 inline-flex items-center justify-center text-slate-500">
+            <Icon name="bx:bxl-linkedin-square" class="w-4 h-4" /><span
+              class="sr-only">Linkedin</span
+            ></a
+          >
+        </div>
+      </div>
+      
+    </div>
+  </Container>
+
+  <div class="mt-14 pt-8 px-5 border-t border-slate-200">
+    <Container>
+      <p class="text-center text-sm text-slate-600 [text-wrap:balance]">
+        Copyright © {new Date().getFullYear()} Astroship. All rights reserved.
+      </p>
+      <p class="text-center text-xs text-slate-600 mt-2">
+        <a href="/terms" class="hover:text-indigo-500"> Terms</a> ・ <a
+          href="/privacy"
+          class="hover:text-indigo-500">
+          Privacy</a
+        >
+      </p>
+    </Container>
+  </div>
+</footer>
+
+
+<!--
+
+   <div class="text-gray-500 my-2 h-7 md:h-9">
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+            width="580.000000pt" height="30.000000pt" viewBox="0 0 580.000000 100.000000"
+            preserveAspectRatio="xMidYMid meet">
+
+            <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
+            fill="#000000" stroke="none">
+            <path d="M1815 891 l-30 -6 -5 -215 -5 -215 -18 65 c-10 36 -35 133 -56 215
+            l-38 150 -59 0 -59 0 0 -358 c0 -198 2 -360 5 -362 3 -2 21 -6 41 -10 27 -5
+            40 -2 53 11 16 15 17 35 10 207 -5 133 -4 188 4 183 10 -6 58 -195 83 -324 13
+            -69 22 -76 95 -70 l39 3 5 355 c5 306 4 357 -9 368 -8 6 -17 11 -20 11 -3 -1
+            -19 -4 -36 -8z"/>
+            <path d="M4245 891 l-30 -6 -5 -215 c-3 -118 -8 -206 -12 -195 -4 11 -26 92
+            -48 180 -23 88 -46 177 -51 198 l-10 38 -57 -3 -57 -3 0 -358 c0 -197 2 -360
+            5 -362 3 -2 21 -6 40 -9 64 -11 64 -9 62 211 -2 136 1 193 8 182 12 -21 66
+            -237 76 -304 10 -78 17 -85 78 -85 37 0 56 4 59 14 3 7 7 170 8 361 2 290 0
+            348 -12 356 -8 5 -16 8 -19 8 -3 -1 -18 -4 -35 -8z"/>
+            <path d="M442 589 c3 -297 4 -305 27 -352 13 -27 38 -58 55 -69 42 -26 109
+            -19 143 15 47 47 56 107 61 406 2 150 0 277 -5 281 -4 5 -70 11 -146 15 l-138
+            7 3 -303z"/>
+            <path d="M865 871 c-45 -19 -60 -49 -59 -120 1 -75 18 -115 110 -257 70 -109
+            84 -138 84 -169 0 -42 -17 -65 -48 -65 -40 0 -52 17 -52 77 0 58 -18 77 -68
+            71 -26 -3 -27 -6 -30 -68 -5 -115 51 -180 156 -180 50 0 58 3 92 38 86 85 65
+            181 -85 395 -30 43 -57 94 -61 114 -9 47 9 83 40 83 31 0 39 -13 46 -70 5 -45
+            5 -45 45 -45 l40 0 3 52 c4 64 -19 118 -59 138 -30 16 -121 19 -154 6z"/>
+            <path d="M3263 845 c-34 -34 -35 -37 -31 -98 4 -71 31 -129 129 -283 63 -97
+            79 -147 60 -183 -13 -23 -59 -29 -79 -9 -7 7 -12 36 -12 65 0 58 -18 77 -68
+            71 -26 -3 -27 -5 -30 -73 -2 -56 2 -77 18 -103 30 -48 75 -72 139 -72 49 0 57
+            3 91 38 46 45 56 89 41 163 -13 61 -29 90 -120 220 -48 69 -65 103 -69 135 -5
+            47 9 74 37 74 31 0 45 -19 50 -67 l6 -48 40 0 40 0 -1 69 c-1 66 -2 71 -37
+            103 -34 30 -42 33 -103 33 -62 0 -68 -2 -101 -35z"/>
+            <path d="M4884 823 c4 -32 13 -83 20 -113 8 -30 22 -93 31 -140 27 -143 86
+            -374 101 -397 16 -26 65 -32 81 -10 11 14 48 166 93 377 17 80 37 170 44 200
+            8 30 17 74 20 98 l6 42 -55 0 c-68 0 -66 4 -101 -199 -27 -161 -40 -220 -47
+            -227 -3 -3 -14 48 -26 113 -40 218 -52 277 -62 295 -7 14 -22 18 -61 18 l-51
+            0 7 -57z"/>
+            <path d="M1274 826 c-58 -26 -99 -106 -92 -179 3 -30 6 -32 46 -35 37 -3 42
+            -1 42 18 0 32 27 90 45 97 32 11 57 -29 62 -101 l6 -66 -42 0 c-154 0 -244
+            -96 -192 -203 26 -54 65 -76 144 -85 54 -6 62 -10 65 -30 4 -27 34 -44 70 -40
+            26 3 27 5 35 93 4 50 7 167 5 260 -3 150 -5 174 -23 205 -36 60 -115 91 -171
+            66z"/>
+            <path d="M2080 833 c-23 -8 -70 -55 -85 -83 -17 -34 -27 -97 -20 -120 5 -15
+            15 -20 44 -20 38 0 39 1 51 47 14 56 26 73 52 73 24 0 45 -49 50 -115 l3 -50
+            -69 -7 c-120 -14 -176 -62 -176 -151 0 -79 75 -137 176 -137 40 0 44 -2 44
+            -25 0 -28 25 -45 69 -45 29 0 30 1 36 63 12 129 10 410 -4 459 -16 56 -52 92
+            -106 107 -44 12 -43 12 -65 4z"/>
+            <path d="M2962 823 c-59 -29 -97 -103 -90 -176 3 -30 6 -32 46 -35 37 -3 42
+            -1 42 18 0 32 27 90 45 97 32 11 57 -29 62 -101 l6 -66 -42 0 c-154 0 -244
+            -96 -192 -203 26 -54 65 -76 144 -85 54 -6 62 -10 65 -30 4 -27 34 -44 70 -40
+            26 3 27 5 35 88 4 47 7 164 5 260 -3 155 -5 179 -23 210 -37 62 -116 91 -173
+            63z"/>
+            <path d="M3704 826 c-58 -26 -99 -104 -92 -176 3 -34 5 -35 43 -35 38 0 40 1
+            48 41 9 47 38 80 62 70 23 -8 45 -68 45 -119 l0 -44 -71 -6 c-117 -10 -190
+            -77 -176 -163 12 -75 60 -111 160 -122 54 -6 62 -10 65 -30 4 -27 34 -44 70
+            -40 27 3 27 4 35 108 4 58 7 173 5 255 -3 125 -7 157 -23 190 -32 63 -112 97
+            -171 71z"/>
+            <path d="M5455 826 c-28 -12 -84 -68 -85 -84 -1 -4 -5 -27 -10 -52 -11 -59 1
+            -80 45 -80 30 0 35 4 40 28 13 60 34 93 58 90 28 -4 45 -39 53 -110 l6 -55
+            -70 -6 c-116 -10 -182 -61 -182 -140 0 -85 57 -136 164 -146 53 -5 60 -9 61
+            -28 2 -31 7 -34 54 -40 36 -5 41 -3 46 18 3 13 7 125 8 249 2 197 0 231 -16
+            272 -28 72 -108 111 -172 84z"/>
+            <path d="M118 815 c-36 -20 -50 -73 -37 -134 7 -33 36 -82 99 -171 74 -103 90
+            -131 90 -162 0 -36 -19 -58 -49 -58 -26 0 -51 41 -51 84 0 43 -1 44 -37 51
+            -51 9 -67 -12 -59 -80 10 -88 67 -135 165 -135 49 0 57 3 92 39 35 34 39 44
+            39 87 -1 67 -26 118 -113 223 -42 50 -78 104 -82 120 -8 39 9 71 39 71 30 0
+            44 -17 48 -60 3 -33 5 -35 44 -38 50 -4 57 8 45 74 -5 28 -19 57 -35 73 -23
+            22 -36 26 -99 28 -50 2 -80 -1 -99 -12z"/>
+            <path d="M2685 811 c-52 -24 -117 -89 -146 -149 -20 -40 -24 -62 -24 -152 0
+            -121 15 -161 87 -231 78 -76 150 -91 175 -37 17 34 8 55 -25 63 -86 21 -142
+            103 -142 206 0 80 45 167 107 208 26 17 50 31 55 31 12 0 10 54 -4 68 -16 16
+            -36 15 -83 -7z"/>
+            <path d="M4489 742 c-79 -41 -113 -100 -118 -205 -2 -46 2 -98 9 -121 25 -82
+            98 -146 169 -146 l31 0 1 88 c1 48 3 148 5 222 5 208 2 214 -97 162z"/>
+            <path d="M4626 740 c-3 -18 -6 -130 -6 -250 0 -169 3 -219 13 -223 16 -6 77
+            14 112 37 69 46 107 161 88 273 -18 104 -77 170 -169 189 -29 5 -32 3 -38 -26z"/>
+            </g>
+            </svg>
+      
+          </div>
+ -->
