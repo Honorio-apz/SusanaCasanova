@@ -1,6 +1,8 @@
 ---
 draft: false
 title: "Rastreo de base de mineras Reinfo"
+clase: "Titulos con XXXXX con Python"
+descripcion: "descripcion XXXX Scrapping con Python"
 snippet: "Discover how data analytics can transform your SaaS business and drive growth."
 image:
   {
@@ -9,7 +11,7 @@ image:
   }
 publishDate: "2023-12-08 11:39"
 category: "Scrapping con Python"
-author: "John Smith"
+author: "JSusana Casanova"
 tags: [data, analytics, SaaS]
 ---
 

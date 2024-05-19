@@ -9,7 +9,7 @@ image:
   }
 publishDate: "2024-02-01 00:00"
 category: "Informativos y evaluaciones del mercado"
-author: "Michael Chen"
+author: "Susana Casanova"
 tags: [AI, SaaS]
 ---
 

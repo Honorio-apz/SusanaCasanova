@@ -9,7 +9,7 @@ image:
   }
 publishDate: "2024-04-01 00:00"
 category: "Dashboard - Tablero de datos interactivos "
-author: "Marcell Ziemann"
+author: "Susana Casanova"
 tags: [webdev, tailwindcss, frontend]
 ---
 

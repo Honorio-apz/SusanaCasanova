@@ -1,6 +1,8 @@
 ---
 draft: false
 title: "Reclamos y quejas"
+clase: "Titulos con XXXXX con Python"
+descripcion: "descripcion XXXX Scrapping con Python"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image:
   {
@@ -9,7 +11,7 @@ image:
   }
 publishDate: "2024-04-01 00:00"
 category: "Dashboard - Tablero de datos interactivos"
-author: "Marcell Ziemann"
+author: "Susana Casanova"
 tags: [webdev, tailwindcss, frontend]
 ---
 

@@ -1,15 +1,17 @@
 ---
 draft: false
-title: "Comparativos de edulcorantes"
+title: " "
+clase: "Titulos con XXXXX con Python"
+descripcion: "descripcion XXXX Scrapping con Python"
 snippet: "Explore how artificial intelligence is revolutionizing the SaaS industry."
 image:
   {
-    src: "https://i.postimg.cc/G20dmSdQ/Comparativos-de-edulcorantes.png",
+    src: "https://i.postimg.cc/zf4VFQG9/balnco.png",
     alt: "alt text",
   }
 publishDate: "2024-02-01 00:00"
-category: "Informativos y evaluaciones del mercado"
-author: "Susana Casanova"
+category: " "
+author: " "
 tags: [AI, SaaS]
 ---
 

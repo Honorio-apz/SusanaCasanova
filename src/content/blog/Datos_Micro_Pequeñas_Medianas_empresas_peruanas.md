@@ -1,6 +1,8 @@
 ---
 draft: false
 title: "Datos de las Micro, Pequeñas y Medianas empresas peruanas"
+clase: "Titulos con XXXXX con Python"
+descripcion: "descripcion XXXX Scrapping con Python"
 snippet: "Discover how data analytics can transform your SaaS business and drive growth."
 image:
   {
@@ -9,7 +11,7 @@ image:
   }
 publishDate: "2024-01-08 11:39"
 category: "Libros y publicaciones"
-author: "John Smith"
+author: "Susana Casanova"
 tags: [data, analytics, SaaS]
 ---
 

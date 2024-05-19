@@ -1,6 +1,8 @@
 ---
 draft: false
 title: "Prácticas comerciales de empresas del CYBER WOW"
+clase: "Titulos con XXXXX con Python"
+descripcion: "descripcion XXXX Scrapping con Python"
 snippet: "Explore how artificial intelligence is revolutionizing the SaaS industry."
 image:
   {
@@ -9,7 +11,7 @@ image:
   }
 publishDate: "2024-02-01 00:00"
 category: "Informativos y evaluaciones del mercado"
-author: "Michael Chen"
+author: "Susana Casanova"
 tags: [AI, SaaS]
 ---
 
