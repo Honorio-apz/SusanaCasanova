@@ -1,8 +1,7 @@
 ---
 draft: false
 title: "Evaluación de impacto de los programas sociales - FISE de Osinergmin"
-clase: "Titulos con XXXXX con Python"
-descripcion: "descripcion XXXX Scrapping con Python"
+
 snippet: "Discover how data analytics can transform your SaaS business and drive growth."
 image:
   {

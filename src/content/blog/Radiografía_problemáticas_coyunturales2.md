@@ -1,8 +1,7 @@
 ---
 draft: false
 title: " "
-clase: "Titulos con XXXXX con Python"
-descripcion: "descripcion XXXX Scrapping con Python"
+
 snippet: "Explore how artificial intelligence is revolutionizing the SaaS industry."
 image:
   {

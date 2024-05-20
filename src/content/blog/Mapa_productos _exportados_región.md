@@ -1,8 +1,6 @@
 ---
 draft: false
 title: "Mapa de productos exportados por región"
-clase: "Titulos con XXXXX con Python"
-descripcion: "descripcion XXXX Scrapping con Python"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image:
   {

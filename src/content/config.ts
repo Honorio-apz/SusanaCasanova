@@ -13,6 +13,8 @@ const blogCollection = defineCollection({
     }),
     publishDate: z.coerce.date(),
     author: z.string().default("Astroship"),
+    clase: z.string().default(" "),
+    descripcion: z.string().default(" "),
     category: z.string(),
     tags: z.array(z.string()),
   }),

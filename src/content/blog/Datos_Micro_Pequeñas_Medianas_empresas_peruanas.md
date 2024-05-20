@@ -1,8 +1,8 @@
 ---
 draft: false
 title: "Datos de las Micro, Pequeñas y Medianas empresas peruanas"
-clase: "Titulos con XXXXX con Python"
-descripcion: "descripcion XXXX Scrapping con Python"
+clase: "Libros y publicaciones"
+descripcion: "Descubre en evaluaciones de impactodel sector energético y las características económicas esenciales de las micro, pequeñas y medianas empresas peruanas "
 snippet: "Discover how data analytics can transform your SaaS business and drive growth."
 image:
   {

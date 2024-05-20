@@ -1,6 +1,9 @@
 ---
 draft: false
 title: "Comparativo de seguros de protección de tarjeta"
+clase: "Informativos - Evaluaciones de mercado"
+descripcion: "Sumérgete en productos de impacto que informan y educan a los consumidores sobre temas clave para mejorar su bienestar"
+
 snippet: "Explore how artificial intelligence is revolutionizing the SaaS industry."
 image:
   {
