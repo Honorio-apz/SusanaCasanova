@@ -2,7 +2,7 @@
 draft: false
 title: "Datos de las Micro, Pequeñas y Medianas empresas peruanas"
 clase: "Libros y publicaciones"
-descripcion: "Descubre en evaluaciones de impactodel sector energético y las características económicas esenciales de las micro, pequeñas y medianas empresas peruanas "
+descripcion: "Descubre información esencial y mantente siempre informado con las publicaciones en las que he participado. ¡No te pierdas las novedades más importantes! "
 snippet: "Discover how data analytics can transform your SaaS business and drive growth."
 image:
   {
