@@ -4,7 +4,7 @@ title: "Ratreo del número de trabajadores SUNAT"
 snippet: "Discover how data analytics can transform your SaaS business and drive growth."
 image:
   {
-    src: "https://i.postimg.cc/CLwM8tDr/Ratreo-del-n-mero-de-trabajadores-SUNAT.png",
+    src: "https://i.postimg.cc/rmC8c6bF/Ratreo-del-n-mero-de-trabajadores-SUNAT.png",
     alt: "alt text",
   }
 publishDate: "2023-12-08 11:39"
@@ -13,17 +13,7 @@ author: "Susana Casanova"
 tags: [data, analytics, SaaS]
 ---
 
-In the competitive world of SaaS, data is king. Every click, interaction, and transaction generates valuable information that, when harnessed correctly, can propel your SaaS business to new heights.
+## Rastreo del número de trabajadores SUNAT
 
-Data analytics tools and techniques have become essential for SaaS startups. They provide insights into user behavior, product performance, and market trends that can inform critical business decisions.
-
-## Benefits of Data Analytics
-
-- **Improved Decision-Making**: Data-driven insights enable smarter, more informed decisions.
-- **Enhanced User Experience**: Tailor your product to meet user needs with precision.
-- **Revenue Optimization**: Identify opportunities to increase revenue and reduce costs.
-- **Competitive Advantage**: Stay ahead of competitors by leveraging data effectively.
-
-## Conclusion
-
-In conclusion, data analytics is not just a buzzword; it's a powerful tool that can supercharge your SaaS startup's growth. By investing in analytics, you're investing in your future success.
+Se identificó un problema de extracción de datos y automaticé la forma de rastrear el número de trabajadores de miles de empresas formales desde la página web de SUNAT, reduciendo las horas hombre. 
+¿Qué es? Propuesta interna que mediante códigos en Python permite automatizar la recopilación del número de trabajadores de SUNAT por empresas, mediante un solo click.
