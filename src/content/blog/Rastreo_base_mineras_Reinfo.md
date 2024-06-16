@@ -10,7 +10,7 @@ image:
   }
 publishDate: "2023-12-08 11:39"
 category: "Scrapping con Python"
-author: "JSusana Casanova"
+author: "Susana Casanova"
 tags: [data, analytics, SaaS]
 ---
 

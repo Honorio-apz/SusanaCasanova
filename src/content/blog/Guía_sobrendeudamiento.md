@@ -14,8 +14,7 @@ tags: [AI, SaaS]
 ---
 
 ## Guía de sobrendeudamiento
-Inicié la propuesta y creación del Tablero CEMI, una herramienta que recopila información crucial de reclamos y quejas de consumidores durante la pandemia. Además, lideré la primera versión del tablero.
-¿Qué es? Informativo amigable para evitar el sobrendeudamiento, mediante la identificación y educación de las tasas de interés, cuotas y pagos mínimos. 
+Como responsable de la creación de la metodología, reuniones de trabajo con actores involucrados, verificación de la recopilación de información y revisión de las piezas gráficas, desempeñé un papel esencial en este proyecto.  ¿Qué es? Informativo amigable para evitar el sobrendeudamiento, mediante la identificación y educación de las tasas de interés, cuotas y pagos mínimos.
 
 Mas información en: 
 - https://www.gob.pe/institucion/indecopi/noticias/682412-compras-al-credito-como-evitar-las-deudas-en-estas-fiestas
