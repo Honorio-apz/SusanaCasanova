@@ -5,7 +5,7 @@ title: " Practicas comerciales"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image:
   {
-    src: "https://i.postimg.cc/1XLDQQ6Y/practicas-comerciales.png",
+    src: "https://i.postimg.cc/j2Y7yzK5/Practicas-comerciales-min.png",
     alt: "alt text",
   }
 publishDate: "2024-04-01 00:00"
